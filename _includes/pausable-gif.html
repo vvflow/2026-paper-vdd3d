@@ -1,0 +1,13 @@
+<div class="pausable-animated-gif">
+  <img src="{{ site.baseurl }}/atlas_gifs/{{ include.basename }}.png" loading="lazy">
+  <details>
+    <summary
+      role="button"
+      class="pausable-animated-gif__play-pause-button"
+      aria-label="play"
+    ></summary>
+    <div class="pausable-animated-gif__animated-image">
+      <img src="{{ site.baseurl }}/atlas_gifs/{{ include.basename }}.gif" loading="lazy">
+    </div>
+  </details>
+</div>

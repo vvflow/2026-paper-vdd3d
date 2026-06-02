@@ -1,0 +1,72 @@
+---
+---
+
+@import "minima";
+
+.pausable-animated-gif {
+  position: relative;
+  display: inline-block;
+}
+
+.pausable-animated-gif > img {
+  display: block;
+}
+
+.pausable-animated-gif details {
+  position: absolute;
+  inset: 0;
+}
+
+.pausable-animated-gif summary {
+  color: #fff;
+  background: #000;
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  z-index: 2;
+  border-radius: 50%;
+  background-image: url("{{site.baseurl}}/play_circle_filled-24px.svg");
+  background-size: 90% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+}
+
+.pausable-animated-gif details[open] > summary {
+  background-image: url("{{site.baseurl}}/pause_circle_filled-24px.svg");
+  box-shadow: 0 0 0 2px #fff;
+  background-color: white;
+}
+
+/* for blink/webkit */
+.pausable-animated-gif details summary::-webkit-details-marker {
+  display: none;
+}
+
+/* for firefox */
+.pausable-animated-gif details > summary:first-of-type {
+  list-style: none;
+}
+
+.pausable-animated-gif summary + * {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  overflow: hidden;
+  border: 0;
+}
+
+.pausable-animated-gif .pausable-animated-gif__animated-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.pausable-animated-gif summary:focus {
+  box-shadow: 0 0 0 0.25rem #aade87;
+  outline: transparent;
+}
