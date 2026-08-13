@@ -8,9 +8,9 @@ These are supplementary materials for \[1\].
 
 Abstract: The VDD method is a kind of the Lagrangian impulse-particle method using the Diffusion Velocity Method (DVM) and the Particle Strength Exchange (PSE). We prefer to call particles as domains because a particle is associated with a concrete volume of fluid and moves with its velocity. When using diffusion velocity, we track a reference point that moves relative to the fluid. We assign this point a volume equal to the inverse density of points near it. This paper presents a detailed description of the method. The physical mechanism underlying the onset and evolution of numerical instability, which reflect the underlying physics of turbulent cascades, is revealed. A numerical stability criterion consistent with Kolmogorov scaling is derived. A new model for the diffusive motion of particles is proposed, ensuring a more uniform spatial distribution. The application of the developed method is demonstrated through numerical simulations of the evolution of vortex rings.
 
-The source of this page along with commands used in the research are available at https://github.com/vvflow/2026-paper-vdd3d/tree/main/.
+The source of this page along with commands used in the research are available at <https://github.com/vvflow/2026-paper-vdd3d/tree/main/>.
 
-All the simulations are performed using open-source software Vdd3d: https://sourcecraft.dev/vvflow/vdd3d (version 2026-08-08-1-g6a0bcea).
+All the simulations are performed using open-source software Vdd3d: <https://sourcecraft.dev/vvflow/vdd3d> (version 2026-08-08-1-g6a0bcea).
 
 ## Instability of a simulation
 
