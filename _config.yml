@@ -17,7 +17,7 @@
 title: Vdd3d Supplementary Materials
 # email: "yaroslav.dynnikov@gmail.com"
 description: >-
-  Проблемы и перспективы дипольного моделирования трехмерных течений вязкой несжимаемой жидкости.
+  Method of Viscous Dipole Domains (VDD) for simulation of three-dimensional flows of viscous incompressible fluid. Physical mechanism of instability.
 baseurl: "/2026-paper-vdd3d"
 url: "https://vvflow.github.io/"
 github_username:  vvflow
